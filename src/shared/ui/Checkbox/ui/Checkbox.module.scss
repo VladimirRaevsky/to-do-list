@@ -1,0 +1,48 @@
+.сheckbox {
+    position:relative;
+    display: inline-block;
+    top: -3px;
+    padding-left: 20px;
+    margin-right: 5px;
+
+    & > label {
+        cursor: pointer;
+    }
+
+    & > input[type=checkbox] {
+            display:none;
+    }
+
+    & > label:after {
+            content:'';
+            display:block;
+            height:10px;
+            width:10px;
+            outline:1px solid var(--primary-color);
+            position:absolute;
+            top:7px;
+            left:0;
+    }   
+}
+
+.сheckboxIsDone {
+    & > input[type=checkbox]:checked + label:after {
+        outline:1px solid var(--color-is-done);
+        border:2px solid var(--color-border);
+        width:10px;
+        height:10px;
+        top:4px;
+        background-color:var(--color-is-done);
+    }
+}
+
+.сheckboxIsProcess {
+       & > input[type=checkbox]:checked + label:after {
+            outline:1px solid var(--color-in-process);
+            border:2px solid var(--color-border);
+            width:10px;
+            height:10px;
+            top:4px;
+            background-color:var(--color-in-process);
+        }
+    }

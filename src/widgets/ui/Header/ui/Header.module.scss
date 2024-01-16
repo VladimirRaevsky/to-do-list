@@ -1,0 +1,25 @@
+.title {
+    font: var(--font-l);
+    margin-bottom: 5px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    box-shadow: 0 2px 8px var(--header-shadow);
+    z-index: var(--z-index-header);
+    background-color: var(--bg-color);
+}
+
+.button {
+    position: absolute;
+    margin-left: 50%;
+    transform: translateX(-250%);
+    top: 10px;
+}

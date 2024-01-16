@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@300;600;700;900&display=swap');
+
+:root {
+    //forn
+    --font-size-m: 16px;
+    --line-hight-m: 24px;
+    --font-family: 'Playfair', sans-serif;
+    --font-m: var(--font-size-m) / var(--line-hight-m) var(--font-family);
+
+    --font-size-l: 24px;
+    --line-hight-l: 32px;
+    --font-l: var(--font-size-l) / var(--line-hight-l) var(--font-family);
+
+    //color
+    --link-active: rgb(241, 125, 125);
+    --color-is-done: #00ff37;
+    --color-in-process: #ffa200;
+    --color-border: #fff;
+
+    //z-index
+    --z-index-header: 1;
+}

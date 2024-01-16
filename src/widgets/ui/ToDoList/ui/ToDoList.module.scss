@@ -1,0 +1,16 @@
+.wrapper {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+
+    &P {
+        font: var(--font-l);
+        font-weight: 900;
+        display: flex;
+        color: var(--secondary-color);
+        justify-content: center;
+        flex-grow: 1;
+    }
+}
